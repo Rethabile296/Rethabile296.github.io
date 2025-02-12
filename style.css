@@ -306,7 +306,7 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
   .about {
     width: 100%;
     max-width: 400px;
