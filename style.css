@@ -306,6 +306,46 @@ body {
   margin: 0;
 }
 
+.about .certificates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+
+.certificates .workbox {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.certificates .certbox {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.certificates .certbox .desc {
+  width: 75%;
+  color: #555;
+}
+
+.certificates .certbox .h3 {
+  color: white;
+  margin-bottom: 3px;
+}
+
+.certbox .desc p {
+  margin: 0;
+}
+
+
 @media screen and (max-width:768px) {
   .about {
     width: 100%;
@@ -318,7 +358,7 @@ body {
     font-size: 2.2rem;
   }
 
-  .about .work {
+  .about .work .certificates{
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(4, auto);
   }
