@@ -1,1 +1,1 @@
-# Rethabile296.github.io
+This is a portfolio website to showcase a summery of who I am and what I've worked on and acheived.

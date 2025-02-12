@@ -274,7 +274,7 @@ body {
   grid-template-rows: auto;
 }
 
-.about .workbox {
+.about .workbox .certbox{
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
